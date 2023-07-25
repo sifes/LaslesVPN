@@ -13,3 +13,7 @@
         @apply max-w-[1180px]
     }
 }
+
+.disabled {
+    transform: translateX(-100vh);
+}
