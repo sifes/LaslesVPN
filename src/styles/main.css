@@ -718,8 +718,36 @@ body {
   width: 1px;
 }
 
+.w-\[1024px\] {
+  width: 1024px;
+}
+
 .min-w-0 {
   min-width: 0px;
+}
+
+.min-w-full {
+  min-width: 100%;
+}
+
+.min-w-\[277px\] {
+  min-width: 277px;
+}
+
+.min-w-\[156px\] {
+  min-width: 156px;
+}
+
+.min-w-\[171px\] {
+  min-width: 171px;
+}
+
+.min-w-\[187px\] {
+  min-width: 187px;
+}
+
+.min-w-\[200px\] {
+  min-width: 200px;
 }
 
 .max-w-md {
@@ -741,6 +769,10 @@ body {
 .-translate-x-1\/2 {
   --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.snap-normal {
+  scroll-snap-stop: normal;
 }
 
 .flex-row {
@@ -791,8 +823,28 @@ body {
   gap: 2.25rem;
 }
 
+.gap-12 {
+  gap: 3rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-0 {
+  gap: 0px;
+}
+
 .self-center {
   align-self: center;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.overflow-x-auto {
+  overflow-x: auto;
 }
 
 .whitespace-nowrap {
@@ -847,6 +899,11 @@ body {
   background-color: rgb(245 56 56 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#dde0e4\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(221 224 228 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -859,6 +916,10 @@ body {
 
 .to-\[\#f8f8f800\] {
   --tw-gradient-to: #f8f8f800 var(--tw-gradient-to-position);
+}
+
+.bg-scroll {
+  background-attachment: scroll;
 }
 
 .p-12 {
@@ -1126,6 +1187,10 @@ body {
 
   .lg\:w-8 {
     width: 2rem;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
   }
 
   .lg\:justify-start {
