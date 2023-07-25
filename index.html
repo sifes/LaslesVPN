@@ -44,7 +44,8 @@
         stroke="currentColor" class="w-8 h-8 md:hidden block">
         <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
       </svg>
-      <div id="burgerMenu" class="md:hidden burger rounded-xl p-12 disabled -translate-x-1/2 flex-col absolute top-12 left-1/2 transition-transform duration-500 text-center bg-black ">
+      <div id="burgerMenu"
+        class="md:hidden burger rounded-xl p-12 disabled -translate-x-1/2 flex-col absolute top-12 left-1/2 transition-transform duration-500 text-center bg-black ">
         <div class="flex flex-col gap-6 mb-8">
           <a href="#" class="text-white hover:text-dark transition-colors duration-200 text-2xl">About</a>
           <a href="#" class="text-white hover:text-dark transition-colors duration-200 text-2xl">Features</a>
@@ -61,24 +62,66 @@
       </div>
     </header>
     <main>
-      <section class="main flex-col md:flex-row flex gap-6 lg:gap-9 items-center">
-        <div class="main-content flex-1 mb-4">
-          <h1 class="text-4xl lg:text-5xl mb-5 font-medium leading-[70px] text-dark ">
-            Want anything to be easy with<div class="font-bold contents"> LaslesVPN.</div>
-          </h1>
-          <div class="mb-12 leading-[30px] text-text w-full">
-            Provide a network for all your needs with ease and fun using 
-            <span class="font-medium contents">LaslesVPN </span>
-            <span class="contents">discover interesting features from us.</span>
+      <section class="main-page ">
+        <div class="flex-col md:flex-row flex gap-6 lg:gap-9 items-center mb-10 lg:mb-24">
+          <div class="main-content flex-1 mb-4">
+            <h1 class="text-4xl lg:text-5xl mb-5 font-medium leading-[70px] text-dark ">
+              Want anything to be easy with<div class="font-bold contents"> LaslesVPN.</div>
+            </h1>
+            <div class="mb-12 leading-[30px] text-text w-full">
+              Provide a network for all your needs with ease and fun using
+              <span class="font-medium contents">LaslesVPN </span>
+              <span class="contents">discover interesting features from us.</span>
+            </div>
+            <a
+              class="bg-primary hover:bg-dark py-4 px-16 whitespace-nowrap leading-[25px] text-white  font-bold justify-center h-16 shrink-0 items-center rounded-lg">
+              <span>Get Started</span>
+            </a>
           </div>
-          <a class="bg-primary hover:bg-dark py-4 px-16 whitespace-nowrap leading-[25px] text-white  font-bold justify-center h-16 shrink-0 items-center rounded-lg">
-            <span>Get Started</span>
-          </a>
+          <div class="main-image flex-1">
+            <img src="./src/images/page.png" alt="main page">
+          </div>
         </div>
-        <div class="main-image flex-1">
-        <img  src="./src/images/page.png" alt="main page">
+        <div class="main-footer">
+          <div
+            class="wrapper w-full shadow-md shadow-slate-100 flex flex-wrap gap-8 md:gap-14 lg:gap-24 min-[1200px]:gap-32 py-8 items-center justify-center">
+            <div class="item flex flex-1 gap-9">
+              <div class="img flex flex-col w-12 items-center">
+                <div class="bg-backWh flex flex-col justify-center w-12 h-12 shrink-0 items-center rounded-[70px]">
+                  <img src="https://file.rendit.io/n/OETtxrQRHYIYFPoCgstl.svg" class="min-w-0 w-6" />
+                </div>
+              </div>
+              <div class="item-content flex flex-col">
+                <p class="text-2xl font-bold leading-[30px] text-dark w-full">90+</p>
+                <div class="text-xl leading-[30px] text-text w-full">Users</div>
+              </div>
+            </div>
+            <div class="divider hidden md:block w-px h-32 border"></div>
+            <div class="item flex flex-1 gap-9">
+              <div class="img flex flex-col w-12 items-center">
+                <div class="bg-backWh flex flex-col justify-center w-12 h-12 shrink-0 items-center rounded-[70px]">
+                  <img src="https://file.rendit.io/n/olZZk8NMrEMlwvn4869Q.svg" class="min-w-0 w-6" />
+                </div>
+              </div>
+              <div class="item-content flex flex-col">
+                <p class="text-2xl font-bold leading-[30px] text-dark w-full">30+</p>
+                <div class="text-xl leading-[30px] text-text w-full">Locations</div>
+              </div>
+            </div>
+            <div class="divider hidden md:block w-px h-32 border"></div>
+            <div class="item flex flex-1 gap-9">
+              <div class="img flex flex-col w-12 items-center">
+                <div class="bg-backWh flex flex-col justify-center w-12 h-12 shrink-0 items-center rounded-[70px]">
+                  <img src="https://file.rendit.io/n/CSCiBqIBXdRJTqD5PSL6.svg" class="min-w-0 w-6" />
+                </div>
+              </div>
+              <div class="item-content flex flex-col">
+                <p class="text-2xl font-bold leading-[30px] text-dark w-full">50+</p>
+                <div class="text-xl leading-[30px] text-text w-full">Servers</div>
+              </div>
+            </div>
+          </div>
         </div>
-          
       </section>
     </main>
   </div>
