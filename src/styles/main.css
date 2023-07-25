@@ -684,8 +684,32 @@ body {
   width: 1px;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-7\/12 {
+  width: 58.333333%;
+}
+
+.w-8\/12 {
+  width: 66.666667%;
+}
+
+.w-4\/12 {
+  width: 33.333333%;
+}
+
+.w-5\/12 {
+  width: 41.666667%;
+}
+
 .min-w-0 {
   min-width: 0px;
+}
+
+.max-w-md {
+  max-width: 28rem;
 }
 
 .flex-1 {
@@ -717,6 +741,14 @@ body {
   align-items: center;
 }
 
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -743,6 +775,10 @@ body {
 
 .gap-9 {
   gap: 2.25rem;
+}
+
+.self-end {
+  align-self: flex-end;
 }
 
 .whitespace-nowrap {
@@ -826,6 +862,10 @@ body {
   text-align: center;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .font-\[\'Rubik\'\] {
   font-family: 'Rubik';
 }
@@ -850,6 +890,11 @@ body {
   line-height: 1.75rem;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -868,6 +913,10 @@ body {
 
 .leading-\[70px\] {
   line-height: 70px;
+}
+
+.leading-\[50px\] {
+  line-height: 50px;
 }
 
 .text-\[\#0b132a\] {
@@ -950,6 +999,10 @@ body {
     margin-bottom: 7rem;
   }
 
+  .md\:mb-24 {
+    margin-bottom: 6rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -962,8 +1015,24 @@ body {
     display: none;
   }
 
+  .md\:w-7\/12 {
+    width: 58.333333%;
+  }
+
+  .md\:w-5\/12 {
+    width: 41.666667%;
+  }
+
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:items-center {
+    align-items: center;
+  }
+
+  .md\:justify-end {
+    justify-content: flex-end;
   }
 
   .md\:gap-14 {
@@ -973,6 +1042,10 @@ body {
   .md\:gap-6 {
     gap: 1.5rem;
   }
+
+  .md\:text-right {
+    text-align: right;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -980,8 +1053,24 @@ body {
     margin-bottom: 6rem;
   }
 
+  .lg\:mb-36 {
+    margin-bottom: 9rem;
+  }
+
   .lg\:w-8 {
     width: 2rem;
+  }
+
+  .lg\:w-1\/2 {
+    width: 50%;
+  }
+
+  .lg\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .lg\:justify-end {
+    justify-content: flex-end;
   }
 
   .lg\:gap-10 {
@@ -1003,6 +1092,14 @@ body {
   .lg\:px-11 {
     padding-left: 2.75rem;
     padding-right: 2.75rem;
+  }
+
+  .lg\:text-left {
+    text-align: left;
+  }
+
+  .lg\:text-right {
+    text-align: right;
   }
 
   .lg\:text-5xl {
