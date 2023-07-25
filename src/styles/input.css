@@ -17,3 +17,6 @@
 .disabled {
     transform: translateX(-100vh);
 }
+.swiper-slide.swiper-slide-active .customer-item {
+    @apply border-primary
+}
