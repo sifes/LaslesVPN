@@ -11,7 +11,8 @@ module.exports = {
       colors: {
         primary: '#F53838',
         dark: '#0B132A',
-        text : '#4F5665'
+        text : '#4F5665',
+        backWh: '#ffecec'
       }
     },
   },
